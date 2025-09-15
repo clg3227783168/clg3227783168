@@ -1,4 +1,42 @@
-baseURL = 'https://github.com/clg3227783168.github.io/'
+baseURL = 'https://clg3227783168.github.io/'
 languageCode = 'zh-CN'
-title = 'Leo Chen's Site'
-theme = Stack
+title = "Leo Chen's Site"
+theme = "hugo-theme-stack"
+
+[[menu.main]]
+    name = "Inspiration"
+    url = "/inspiration/"
+    weight = 10
+
+[[menu.main]]
+    name = "Todo"
+    url = "/todo/"
+    weight = 20
+
+[[menu.main]]
+    name = "Solution"
+    url = "/solution/"
+    weight = 30
+
+[[params.widgets.page]]
+    type = "categories"
+
+[[params.widgets.page]]
+    type = "tag-cloud"
+
+[params.comments]
+    enabled = true
+    provider = "giscus"
+
+    [params.comments.giscus]
+        repo = "clg3227783168/clg3227783168"
+        repoID = "R_kgDOPucJRQ"
+        category = "Announcements"
+        categoryID = "DIC_kwDOPucJRc4CvdXu"
+        mapping = "url"
+        strict = "0"
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "top"
+        lang = "zh-CN"
+        theme = "preferred_color_scheme"

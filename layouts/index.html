@@ -1,0 +1,12 @@
+{{ define "main" }}
+    <article class="main-content" style="margin-left: 2rem; margin-right: 2rem;">
+        {{- $readme := readFile "README.md" -}}
+        {{- .RenderString $readme -}}
+    </article>
+
+    {{- partial "footer/footer" . -}}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}
