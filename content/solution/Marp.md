@@ -1,8 +1,8 @@
 ---
-title: "解决 Marp 中文 PDF 导出问题"
+title: "Marp 导出 PDF 中文乱码"
 date: 2025-09-15
-tags: ["Marp", "Hugo", "字体"]
-categories: ["技术教程"]
+tags: ["Marp", "Hugo", "中文乱码"]
+categories: ["bug解决"]
 ---
 
 ## 问题描述
