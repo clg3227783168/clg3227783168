@@ -29,7 +29,7 @@ theme = "hugo-theme-stack"
     provider = "giscus"
 
     [params.comments.giscus]
-        repo = "clg3227783168/clg3227783168"
+        repo = "clg3227783168/clg3227783168.github.io"
         repoID = "R_kgDOPucJRQ"
         category = "Announcements"
         categoryID = "DIC_kwDOPucJRc4CvdXu"
