@@ -67,3 +67,43 @@ title: Todo
 	
 - csv parser
 - 斗地主模拟器
+
+John has always dreamed of taking a vacation on Hawaii. He has decided to make his dream come true during the next holiday period, and he would like to spend as much time there as possible.
+The problem is that there is only one plane per week connecting Hawaii with the city where John lives. The plane departs every Monday and arrives every Sunday. There is no other way to get to Hawaii and back. It means that John can spend only whole weeks in Hawaii.
+John knows in which month his vacation starts and in which month it ends. His vacation period starts on the first day of the beginning month and ends on the last day of the ending month. John also knows the year in which his vacation takes place.
+For example, if John's vacation lasts from July to September in 2008, then it starts on 1st July 2008 and ends on 30th September 2008.
+Your task is to calculate how many weeks John will spend in Hawaii, given:
+the month when the vacation begins;
+the month when the vacation ends;
+the year when the vacation takes place;
+the day of the week for 1st January in the vacation year (for convenience).
+The names of the days of the week are:
+Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+content_copy
+. The names of the months are:
+January, February, March, April, May, June, July, August, September, October, November, December
+content_copy
+. The lengths of the months are, respectively:
+31, 28 (or 29 in a leap year), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
+content_copy
+days.
+Pay attention to leap years; you should also consider them. The year of the vacation will be a number between 2001 and 2099, inclusive, and you can tell that the year is a leap year if it's divisible by 4.
+Write a function:
+int solution(int Y, string &A, string &B, string &W);
+content_copy
+that, given an integer Y and three non-empty strings A, B and W, denoting the year of the vacation, the beginning month, the ending month and the day of the week for 1st January of that year, returns the maximum number of weeks that John can spend in Hawaii.
+For example, given Y = 2014, A = "April
+content_copy
+", B = "May
+content_copy
+" and W = "Wednesday
+content_copy
+", the function should return 7, since John can leave his city on April 7th and come back on May 25th, so he will spend 7 weeks on Hawaii (the weeks beginning, respectively, on April 7th, 14th, 21st, 28th and May 5th, 12th, 19th).
+此处跟日历图
+Assume that:
+Y is an integer within the range [2,001..2,099];
+A and B are valid month names;
+month B does not preceed month A;
+W is a valid weekday name;
+W is the correct weekday for January 1st of year Y in the actual calendar.
+In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
