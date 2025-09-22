@@ -1,0 +1,14 @@
+{{/* 语言特定字体CSS */}}
+{{ if eq .Site.Language.Lang "zh-cn" }}
+    <link rel="stylesheet" href="{{ "css/zh-fonts.css" | relURL }}">
+{{ else if eq .Site.Language.Lang "en" }}
+    <link rel="stylesheet" href="{{ "css/en-fonts.css" | relURL }}">
+{{ end }}
+
+{{/* 添加语言属性到body */}}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.documentElement.lang = '{{ .Site.Language.Lang }}';
+    document.body.lang = '{{ .Site.Language.Lang }}';
+});
+</script>

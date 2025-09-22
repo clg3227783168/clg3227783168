@@ -1,10 +1,8 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 ## 项目概述
 
-这是一个基于Hugo的静态网站项目，使用hugo-theme-stack主题。网站是Leo Chen的个人站点，部署在GitHub Pages上。
+这是一个基于Hugo的静态网站项目，使用hugo-theme-stack主题。网站是Leo Chen的个人站点。
 
 ## 核心架构
 
@@ -16,20 +14,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - `layouts/` - 自定义布局模板
   - `themes/hugo-theme-stack/` - 主题文件(git submodule)
   - `static/` - 静态资源文件
-
-## 开发命令
-
-### 本地开发
-```bash
-# 安装Hugo (需要extended版本)
-# 在本项目中使用Hugo 0.120.2版本
-
-# 本地开发服务器
-hugo server -D
-
-# 构建生产版本
-hugo --gc --minify
-```
 
 ### 部署
 项目使用GitHub Actions自动部署到GitHub Pages。推送到main分支时会自动触发构建和部署。

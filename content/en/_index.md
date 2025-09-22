@@ -1,7 +1,11 @@
-# 👋 欢迎来到 Leo Chen 的个人站点
+---
+title: "Home"
+---
+
+# 👋 Welcome to Leo Chen's Personal Site
 
 <div align="center">
-  <h2>🎯 专注于AI技术研究、系统优化与知识分享</h2>
+  <h2>🎯 Focus on AI Research, System Optimization & Knowledge Sharing</h2>
 </div>
 
 <div align="center">
@@ -10,7 +14,7 @@
 
 ---
 
-## 🗂️ 探索我的世界
+## 🗂️ Explore My World
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
 
@@ -19,12 +23,12 @@
   <div style="position: relative; z-index: 2;">
     <div style="font-size: 3rem; margin-bottom: 1rem;">💡</div>
     <h3 style="color: white; margin: 0 0 1rem 0; font-size: 1.5rem;">
-      <a href="/inspiration/" style="color: white; text-decoration: none;">Inspiration</a>
+      <a href="/en/inspiration/" style="color: white; text-decoration: none;">Inspiration</a>
     </h3>
     <p style="color: rgba(255,255,255,0.9); margin: 0; line-height: 1.6;">
-      <strong>灵感与创新</strong><br/>
-      探索AI前沿技术<br/>
-      分享创新思路与见解
+      <strong>Innovation & Creativity</strong><br/>
+      Exploring cutting-edge AI technologies<br/>
+      Sharing innovative ideas and insights
     </p>
     <div style="margin-top: 1.5rem;">
       <span style="background: rgba(255,255,255,0.2); padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; color: white;">XGrammar</span>
@@ -38,16 +42,16 @@
   <div style="position: relative; z-index: 2;">
     <div style="font-size: 3rem; margin-bottom: 1rem;">📝</div>
     <h3 style="color: white; margin: 0 0 1rem 0; font-size: 1.5rem;">
-      <a href="/todo/" style="color: white; text-decoration: none;">Todo</a>
+      <a href="/en/todo/" style="color: white; text-decoration: none;">Todo</a>
     </h3>
     <p style="color: rgba(255,255,255,0.9); margin: 0; line-height: 1.6;">
-      <strong>规划与进展</strong><br/>
-      学习计划管理<br/>
-      项目进度跟踪
+      <strong>Planning & Progress</strong><br/>
+      Learning plan management<br/>
+      Project progress tracking
     </p>
     <div style="margin-top: 1.5rem;">
-      <span style="background: rgba(255,255,255,0.2); padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; color: white;">鸿蒙OS</span>
-      <span style="background: rgba(255,255,255,0.2); padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; color: white; margin-left: 0.5rem;">LLM研究</span>
+      <span style="background: rgba(255,255,255,0.2); padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; color: white;">HarmonyOS</span>
+      <span style="background: rgba(255,255,255,0.2); padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; color: white; margin-left: 0.5rem;">LLM Research</span>
     </div>
   </div>
 </div>
@@ -57,16 +61,16 @@
   <div style="position: relative; z-index: 2;">
     <div style="font-size: 3rem; margin-bottom: 1rem;">🛠️</div>
     <h3 style="color: white; margin: 0 0 1rem 0; font-size: 1.5rem;">
-      <a href="/solution/" style="color: white; text-decoration: none;">Solution</a>
+      <a href="/en/solution/" style="color: white; text-decoration: none;">Solution</a>
     </h3>
     <p style="color: rgba(255,255,255,0.9); margin: 0; line-height: 1.6;">
-      <strong>解决方案</strong><br/>
-      实际问题解决<br/>
-      技术方案分享
+      <strong>Solutions</strong><br/>
+      Practical problem solving<br/>
+      Technical solution sharing
     </p>
     <div style="margin-top: 1.5rem;">
       <span style="background: rgba(255,255,255,0.2); padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; color: white;">Marp PDF</span>
-      <span style="background: rgba(255,255,255,0.2); padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; color: white; margin-left: 0.5rem;">中文字体</span>
+      <span style="background: rgba(255,255,255,0.2); padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.8rem; color: white; margin-left: 0.5rem;">Chinese Fonts</span>
     </div>
   </div>
 </div>
@@ -94,20 +98,20 @@ div[style*="linear-gradient"]:hover div[style*="border-radius: 50%"] {
 
 ---
 
-## 📊 技术栈 & 专业领域
+## 📊 Tech Stack & Professional Fields
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 2rem 0;">
   <span style="background: linear-gradient(45deg, #FF6B6B, #4ECDC4); color: white; padding: 0.5rem 1rem; border-radius: 25px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">🐍 Python</span>
   <span style="background: linear-gradient(45deg, #00599C, #004482); color: white; padding: 0.5rem 1rem; border-radius: 25px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">⚡ C++</span>
   <span style="background: linear-gradient(45deg, #00ADD8, #007D9C); color: white; padding: 0.5rem 1rem; border-radius: 25px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">🚀 Go</span>
-  <span style="background: linear-gradient(45deg, #FF9500, #FF6B00); color: white; padding: 0.5rem 1rem; border-radius: 25px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">🧠 深度学习</span>
-  <span style="background: linear-gradient(45deg, #8E2DE2, #4A00E0); color: white; padding: 0.5rem 1rem; border-radius: 25px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">🤖 大语言模型</span>
-  <span style="background: linear-gradient(45deg, #F2709C, #FF9472); color: white; padding: 0.5rem 1rem; border-radius: 25px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">🔧 系统优化</span>
+  <span style="background: linear-gradient(45deg, #FF9500, #FF6B00); color: white; padding: 0.5rem 1rem; border-radius: 25px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">🧠 Deep Learning</span>
+  <span style="background: linear-gradient(45deg, #8E2DE2, #4A00E0); color: white; padding: 0.5rem 1rem; border-radius: 25px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">🤖 Large Language Models</span>
+  <span style="background: linear-gradient(45deg, #F2709C, #FF9472); color: white; padding: 0.5rem 1rem; border-radius: 25px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">🔧 System Optimization</span>
 </div>
 
 ---
 
-## 🎯 关于我
+## 🎯 About Me
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 2rem; color: white; margin: 2rem 0; position: relative; overflow: hidden;">
   <div style="position: absolute; top: 0; right: 0; width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 50%; transform: translate(30px, -30px);"></div>
@@ -116,16 +120,16 @@ div[style*="linear-gradient"]:hover div[style*="border-radius: 50%"] {
   <div style="position: relative; z-index: 2;">
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
       <div>
-        <h4 style="margin: 0 0 1rem 0; color: #FFD700;">🔍 研究方向</h4>
-        <p style="margin: 0; opacity: 0.9;">AI/ML、系统优化、软件工程</p>
+        <h4 style="margin: 0 0 1rem 0; color: #FFD700;">🔍 Research Focus</h4>
+        <p style="margin: 0; opacity: 0.9;">AI/ML, System Optimization, Software Engineering</p>
       </div>
       <div>
-        <h4 style="margin: 0 0 1rem 0; color: #FFD700;">🎓 核心技能</h4>
-        <p style="margin: 0; opacity: 0.9;">C++、Python、Go、深度学习</p>
+        <h4 style="margin: 0 0 1rem 0; color: #FFD700;">🎓 Core Skills</h4>
+        <p style="margin: 0; opacity: 0.9;">C++, Python, Go, Deep Learning</p>
       </div>
       <div>
-        <h4 style="margin: 0 0 1rem 0; color: #FFD700;">🌱 当前学习</h4>
-        <p style="margin: 0; opacity: 0.9;">大语言模型、多模态AI、高性能计算</p>
+        <h4 style="margin: 0 0 1rem 0; color: #FFD700;">🌱 Currently Learning</h4>
+        <p style="margin: 0; opacity: 0.9;">Large Language Models, Multimodal AI, High Performance Computing</p>
       </div>
     </div>
   </div>
@@ -135,6 +139,6 @@ div[style*="linear-gradient"]:hover div[style*="border-radius: 50%"] {
 
 <div align="center" style="margin: 3rem 0;">
   <p style="font-size: 1.2rem; color: #666; font-style: italic;">
-    ✨ 持续探索，不断创新，与技术共成长 ✨
+    ✨ Keep exploring, keep innovating, grow with technology ✨
   </p>
 </div>

@@ -1,0 +1,69 @@
+/* 英文字体配置 */
+
+/* 导入英文Web字体 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* 全局英文字体设置 */
+body, html {
+    font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+}
+
+/* 标题字体 - 优雅的衬线字体 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif !important;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+/* 主标题特别样式 */
+h1 {
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
+/* 卡片内容字体 */
+.main-content p, .main-content span, .main-content div {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 400;
+}
+
+/* 强调文本 */
+strong, b {
+    font-weight: 600;
+    font-family: 'Inter', sans-serif !important;
+}
+
+/* 代码字体 */
+code, pre, .code {
+    font-family: 'JetBrains Mono', 'Fira Code', 'Monaco', 'Consolas', monospace !important;
+    font-weight: 400;
+}
+
+/* 菜单字体 */
+.menu a, nav a {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+}
+
+/* 英文特有的字体优化 */
+body[lang="en"], html[lang="en"] {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "liga" 1, "kern" 1;
+}
+
+/* 英文段落更紧凑的行距 */
+body[lang="en"] p {
+    line-height: 1.6;
+}
+
+/* 英文标题间距调整 */
+body[lang="en"] h1, body[lang="en"] h2, body[lang="en"] h3 {
+    margin-bottom: 0.8em;
+    margin-top: 1.2em;
+}

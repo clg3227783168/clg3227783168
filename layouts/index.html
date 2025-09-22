@@ -1,8 +1,41 @@
 {{ define "main" }}
     <article class="main-content" style="margin-left: 2rem; margin-right: 2rem;">
-        {{- $readme := readFile "README.md" -}}
-        {{- .RenderString $readme -}}
+        {{ if eq .Site.Language.Lang "zh-cn" }}
+            {{- $readme := readFile "README.md" -}}
+            {{- .RenderString $readme -}}
+        {{ else }}
+            {{- $readme := readFile "README_en.md" -}}
+            {{- .RenderString $readme -}}
+        {{ end }}
     </article>
+
+    <!-- Language Switch Button -->
+    <div style="position: fixed; top: 20px; right: 20px; z-index: 1000;">
+        <div style="display: flex; gap: 10px;">
+            {{ if eq .Site.Language.Lang "zh-cn" }}
+                <span style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 8px 16px; border-radius: 25px; font-size: 14px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                    🇨🇳 中文
+                </span>
+                <a href="/en/" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 8px 16px; border-radius: 25px; text-decoration: none; font-size: 14px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all 0.3s ease;">
+                    🇺🇸 English
+                </a>
+            {{ else }}
+                <a href="/" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 8px 16px; border-radius: 25px; text-decoration: none; font-size: 14px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2); transition: all 0.3s ease;">
+                    🇨🇳 中文
+                </a>
+                <span style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 8px 16px; border-radius: 25px; font-size: 14px; font-weight: 600; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                    🇺🇸 English
+                </span>
+            {{ end }}
+        </div>
+    </div>
+
+    <style>
+    a[href="/en/"]:hover, a[href="/"]:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.3) !important;
+    }
+    </style>
 
     {{- partial "footer/footer" . -}}
 {{ end }}

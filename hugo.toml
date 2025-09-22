@@ -1,21 +1,66 @@
 baseURL = 'https://clg3227783168.github.io/'
-languageCode = 'zh-CN'
-title = "Leo Chen's Site"
+defaultContentLanguage = "zh-cn"
 theme = "hugo-theme-stack"
 
-[[menu.main]]
-    name = "Inspiration"
+[languages]
+  [languages.zh-cn]
+    languageCode = "zh-CN"
+    languageName = "简体中文"
+    title = "Leo Chen's Site"
+    weight = 1
+
+  [languages.zh-cn.params]
+    customCSS = ["css/zh-fonts.css"]
+
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    title = "Leo Chen's Site"
+    weight = 2
+
+  [languages.en.params]
+    customCSS = ["css/en-fonts.css"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+    [params.sidebar]
+        [params.sidebar.avatar]
+            enabled = true
+            local = false
+            src = "/avatar.png"
+
+[[languages.zh-cn.menu.main]]
+    name = "灵感"
     url = "/inspiration/"
     weight = 10
 
-[[menu.main]]
-    name = "Todo"
+[[languages.zh-cn.menu.main]]
+    name = "待办"
     url = "/todo/"
     weight = 20
 
-[[menu.main]]
-    name = "Solution"
+[[languages.zh-cn.menu.main]]
+    name = "解决方案"
     url = "/solution/"
+    weight = 30
+
+[[languages.en.menu.main]]
+    name = "Inspiration"
+    url = "/en/inspiration/"
+    weight = 10
+
+[[languages.en.menu.main]]
+    name = "Todo"
+    url = "/en/todo/"
+    weight = 20
+
+[[languages.en.menu.main]]
+    name = "Solution"
+    url = "/en/solution/"
     weight = 30
 
 [[params.widgets.page]]
